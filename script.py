@@ -58,7 +58,7 @@ plt.barh(y_pos, performance, align='center')
 plt.yticks(y_pos, objects)
 plt.xlabel('Number of Commit')
 plt.title('Number of Commit for each submodule in the last six months')
-plt.show()
+plt.savefig('commit.png')
 
 
 # In[4]:
@@ -73,5 +73,5 @@ plt.barh(y_pos, performance, align='center')
 plt.yticks(y_pos, objects)
 plt.xlabel('Code changes')
 plt.title('Code diff for each submodule in the last six months')
-plt.show()
+plt.savefig('churn.png')
 
