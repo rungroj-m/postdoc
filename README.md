@@ -1,7 +1,7 @@
-# prerequisite
+# Prerequisite
 python3
 
-# instruction 
+# Instruction 
 1. git clone https://github.com/openstack/nova.
 2. pip install matplotlib
 3. pip install pydriller
